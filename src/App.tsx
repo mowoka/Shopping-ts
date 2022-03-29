@@ -42,6 +42,7 @@ const App = () => {
   return (
     <Wrapper>
       <Grid container spacing={3}>
+        <p> Hello</p>
         {data?.map((item: CartItemType, index: number) => (
           <Grid item key={index} xs={12} sm={4}>
             <Item item={item} handleAddToCart={handleAddToCart} />
